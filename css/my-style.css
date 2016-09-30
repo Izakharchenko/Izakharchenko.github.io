@@ -1,0 +1,217 @@
+@font-face {
+    font-family: Rockwell Bold; /* Имя шрифта */
+    src: url(/fonts/ROCKB.TTF); /* Путь к файлу со шрифтом */
+}
+h1,h2,h3,h4,b,p,ul,ol,li,a {
+    font-family: Rockwell;
+}
+
+/* start */
+.brand-centered {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+.navbar-brand {
+    display: flex;
+    align-items: center;
+}
+/* end */
+
+@media (min-width: 768px) {
+    .navbar-left {
+        margin-left: 120px;
+    }
+    .navbar-right {
+        margin-right: 100px;
+    }
+}
+
+@media (min-width: 992px) {
+    .navbar-left {
+        margin-left: 250px;
+    }
+    .navbar-right {
+        margin-right: 225px;
+    }
+}
+
+
+@media (min-width: 1200px) {
+    .navbar-left {
+        margin-left: 350px;
+    }
+    .navbar-right {
+        margin-right: 320px;
+    }
+}
+
+
+.navbar-default {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #ffffff;
+    border-bottom: solid 1px #ccc;
+    border-right: #ffffff;
+    border-left: #ffffff;
+    border-radius: 0;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #3eb3a5;
+    background-color: #ffffff;
+    border-bottom: solid 2px #cccccc;
+}
+
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+    color: #555;
+    background-color: #ffffff;
+}
+
+.navbar-right .dropdown-menu-left {
+    right: auto;
+    left: 15px;
+}
+
+.logo {
+    z-index: 1;
+    height: 135px;
+    margin-bottom: 15px;
+
+}
+
+.topic{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.my-count {
+    display: inline-block;
+    min-width: 10px;
+    padding: 3px 7px;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+}
+
+.separate-news {
+    border-style: solid;
+    border-width: 0px 0px 1px;
+    -moz-border-image: url(../img/line.png) 0 0 1 repeat;
+    -webkit-border-image: url(../img/line.png) 0 0 1 repeat;
+    -o-border-image: url(../img/line.png) 0 0 1 repeat;
+    border-image: url(../img/line.png) 0 0 1 fill repeat;
+
+    /*!*border-bottom: dashed 4px;*!*/
+    /*border-bottom: solid 4px;*/
+    /*!*border-bottom-width: thin;*!*/
+    /*border-image: url(../img/line.png);*/
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.separate-comments{
+    border-style: solid;
+    border-width: 0px 0px 1px;
+    -moz-border-image: url(../img/line.png) 0 0 1 repeat;
+    -webkit-border-image: url(../img/line.png) 0 0 1 repeat;
+    -o-border-image: url(../img/line.png) 0 0 1 repeat;
+    border-image: url(../img/line.png) 0 0 1 fill repeat;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.circle-data {
+    alignment: center;
+    width: 133px;
+    height: 133px;
+    border-radius: 135px 135px 135px 135px;
+    -moz-border-radius: 135px 135px 135px 135px;
+    -webkit-border-radius: 135px 135px 135px 135px;
+    border: 8px solid #ebebeb;
+}
+
+.circle-data-small {
+    alignment: center;
+    width: 100px;
+    height: 100px;
+    border-radius: 100px 100px 100px 100px;
+    -moz-border-radius: 100px 100px 100px 100px;
+    -webkit-border-radius: 100px 100px 100px 100px;
+    border: 8px solid #ebebeb;
+}
+
+.text-vertical {
+   padding-top: 20%;
+}
+
+.text-vertical-small {
+   padding-top: 10%;
+}
+.breadcrumb {
+    background-color: #fff;
+}
+.breadcrumb>li+li:before {
+    padding: 0 5px;
+    color: #ccc;
+    content: "|";
+}
+.post{
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.color{
+  color:  #3eb3a5;
+}
+/* circle button */
+.orange-circle-button {
+    border: .5em solid #3eb3a5;
+    font-size: 1.3em;
+    line-height: 1.1em;
+    color: #ffffff;
+    background-color: #3eb3a5;
+    margin: auto;
+    border-radius: 50%;
+    height: 7em;
+    width: 7em;
+    position: relative;
+}
+.orange-circle-button:hover {
+    color:#ffffff;
+    background-color: #3eb3a5;
+    text-decoration: none;
+    border-color: #ccc;
+
+}
+.orange-circle-button:visited {
+    color:#ffffff;
+    background-color: #e84d0e;
+    text-decoration: none;
+}
+.orange-circle-link-greater-than {
+    font-size: 1em;
+}
+
+.more {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.footer{
+    margin-top: 15px;
+}
+.post-container{
+    max-width: 330px;
+    padding: 15px;
+    margin: 0 auto;
+}
