@@ -1,3 +1,4 @@
+html{position: relative; min-height: 100%;}
 @font-face {
     font-family: Rockwell Bold; /* Имя шрифта */
     src: url(/fonts/ROCKB.TTF); /* Путь к файлу со шрифтом */
