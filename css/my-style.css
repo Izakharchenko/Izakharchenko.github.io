@@ -210,6 +210,9 @@ h1,h2,h3,h4,b,p,ul,ol,li,a {
 }
 .footer{
     margin-top: 15px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
 .post-container{
     max-width: 330px;
